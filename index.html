@@ -3,118 +3,142 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Xavier V. | IT Support & Cybersecurity</title>
+  <title>Xavier Olvera | IT Support & Network Security</title>
   <style>
     :root {
-      --primary: #2e3a59;
-      --accent: #0078d4;
-      --background: #f4f6f8;
-      --text: #333;
+      --main-color: #1f3b4d;
+      --accent-color: #0a84ff;
+      --bg-color: #f2f4f8;
+      --text-color: #333;
     }
 
     * {
-      box-sizing: border-box;
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
     }
 
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: var(--background);
-      color: var(--text);
+      background-color: var(--bg-color);
+      color: var(--text-color);
       line-height: 1.6;
-      padding: 20px;
     }
 
     header {
-      background-color: var(--primary);
+      background: var(--main-color);
       color: white;
-      padding: 30px 20px;
+      padding: 40px 20px;
       text-align: center;
     }
 
     header h1 {
+      font-size: 2em;
       margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1em;
     }
 
     .container {
       max-width: 900px;
-      margin: 30px auto;
+      margin: 40px auto;
+      padding: 20px;
       background: white;
-      padding: 30px;
-      border-radius: 8px;
+      border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
 
     h2 {
-      color: var(--primary);
+      color: var(--main-color);
       margin-top: 30px;
-      margin-bottom: 10px;
-      border-bottom: 2px solid var(--accent);
+      border-bottom: 2px solid var(--accent-color);
       padding-bottom: 5px;
     }
 
     ul {
-      list-style-type: square;
       padding-left: 20px;
-      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 8px;
     }
 
     .contact a {
-      color: var(--accent);
+      color: var(--accent-color);
       text-decoration: none;
     }
 
     @media (max-width: 600px) {
       .container {
-        padding: 20px;
+        margin: 20px;
+        padding: 15px;
       }
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Xavier V.</h1>
-    <p>IT Support Specialist | Cybersecurity Enthusiast</p>
+    <h1>Xavier Olvera</h1>
+    <p>IT Support Specialist | Network Security | Bilingual (EN/ES)</p>
   </header>
 
   <div class="container">
     <section>
-      <h2>🛠 Skills & Technologies</h2>
+      <h2>📌 Summary</h2>
+      <p>Bilingual IT Support professional with an Associate Degree in Network Administration and Security. Experienced in user support, infrastructure maintenance, cybersecurity principles, and Office 365 administration. Currently working at Sinergia Inc. providing Tier 1/2 support, automation, and endpoint management.</p>
+    </section>
+
+    <section>
+      <h2>🛠 Skills</h2>
       <ul>
-        <li>Microsoft 365: Exchange, SharePoint, Intune, Defender</li>
-        <li>PowerShell & Bash scripting</li>
-        <li>Jamf Now (iOS device management)</li>
-        <li>Networking & troubleshooting (Windows/macOS)</li>
-        <li>Virtualization: VMware Fusion, Kali Linux lab</li>
+        <li>Office 365: Exchange, SharePoint, Entra, Defender, Teams</li>
+        <li>Active Directory, DNS, DHCP, PowerShell, Microsoft Forms</li>
+        <li>Power Apps & Power Automate automation</li>
+        <li>JAMF (mobile device management for iPhones)</li>
+        <li>Networking (TCP/IP, OSPF, RIP, EIGRP), traffic analysis</li>
+        <li>Remote support: AnyDesk, TeamViewer, MS Remote Desktop</li>
+        <li>Documentation and training for non-technical users</li>
+        <li>English / Español fluency</li>
       </ul>
     </section>
 
     <section>
-      <h2>📂 Projects & Contributions</h2>
+      <h2>💼 Experience</h2>
+      <h3>IT Support Help Desk — Sinergia Inc, NY (2022–Present)</h3>
       <ul>
-        <li>Automated PowerShell script to manage SharePoint users</li>
-        <li>Deployment of Voicemeeter audio system for hybrid meetings</li>
-        <li>Remote support infrastructure for Sinergia Inc.</li>
-        <li>Custom Intune profiles for 50+ mobile devices</li>
+        <li>Created and managed users in Active Directory and Microsoft 365</li>
+        <li>Provided hardware/software/network support and onboarding</li>
+        <li>Built internal apps with Power Apps and Forms</li>
+        <li>Used JAMF and Datto for compliance, patching, and monitoring</li>
+        <li>Documented IT procedures and trained users on Evero DSP</li>
+      </ul>
+      <h3>IT Technician (Contract) — Wells Fargo, NY (Mar–Apr 2022)</h3>
+      <ul>
+        <li>Tier 1 tech support for "Return to Office" project</li>
+        <li>Installed and configured workstations and peripherals</li>
+        <li>Maintained OS and file backups for onsite devices</li>
       </ul>
     </section>
 
     <section>
-      <h2>🎓 Certifications & Education</h2>
+      <h2>🎓 Education</h2>
       <ul>
+        <li><strong>Associate Degree</strong> in Network Administration & Security, ASA College (2021)</li>
         <li>Google Cybersecurity Certificate (In Progress)</li>
-        <li>CompTIA A+ (Preparing)</li>
-        <li>Associate Degree in Network Administration & Security</li>
+        <li>Preparing for CompTIA A+ Certification</li>
       </ul>
     </section>
 
     <section class="contact">
       <h2>📫 Contact</h2>
-      <p>Email: <a href="mailto:xavier@example.com">xavier@example.com</a></p>
-      <p>GitHub: <a href="https://github.com/xolvera" target="_blank">github.com/xolvera</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/xolvera" target="_blank">linkedin.com/in/xolvera</a></p>
+      <p>Email: <a href="mailto:xaov90@gmail.com">xaov90@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/xaov90" target="_blank">linkedin.com/in/xaov90</a></p>
     </section>
   </div>
+
 </body>
 </html>
