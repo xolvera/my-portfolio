@@ -2,58 +2,119 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Xavier IT Support Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xavier V. | IT Support & Cybersecurity</title>
   <style>
+    :root {
+      --primary: #2e3a59;
+      --accent: #0078d4;
+      --background: #f4f6f8;
+      --text: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 20px;
     }
-    h1 {
-      color: #333;
+
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
     }
-    .section {
-      margin-bottom: 30px;
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-top: 30px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Xavier - IT Support Specialist</h1>
-  <p>Welcome to my personal portfolio. Here you can find my experience, tools I use, and personal projects.</p>
+  <header>
+    <h1>Xavier V.</h1>
+    <p>IT Support Specialist | Cybersecurity Enthusiast</p>
+  </header>
 
-  <div class="section">
-    <h2>🛠 Skills & Tools</h2>
-    <ul>
-      <li>Microsoft 365 (Exchange, SharePoint, Teams, Intune)</li>
-      <li>PowerShell scripting</li>
-      <li>Jamf Now for iPhone fleet management</li>
-      <li>Windows & macOS support</li>
-      <li>Basic networking & cybersecurity</li>
-    </ul>
-  </div>
+  <div class="container">
+    <section>
+      <h2>🛠 Skills & Technologies</h2>
+      <ul>
+        <li>Microsoft 365: Exchange, SharePoint, Intune, Defender</li>
+        <li>PowerShell & Bash scripting</li>
+        <li>Jamf Now (iOS device management)</li>
+        <li>Networking & troubleshooting (Windows/macOS)</li>
+        <li>Virtualization: VMware Fusion, Kali Linux lab</li>
+      </ul>
+    </section>
 
-  <div class="section">
-    <h2>📂 Projects</h2>
-    <ul>
-      <li>Automated script to remove blocked users from SharePoint</li>
-      <li>Setup of hybrid conferencing system with Voicemeeter</li>
-      <li>VMWare-based cybersecurity lab with Kali Linux</li>
-    </ul>
-  </div>
+    <section>
+      <h2>📂 Projects & Contributions</h2>
+      <ul>
+        <li>Automated PowerShell script to manage SharePoint users</li>
+        <li>Deployment of Voicemeeter audio system for hybrid meetings</li>
+        <li>Remote support infrastructure for Sinergia Inc.</li>
+        <li>Custom Intune profiles for 50+ mobile devices</li>
+      </ul>
+    </section>
 
-  <div class="section">
-    <h2>📜 Certifications</h2>
-    <ul>
-      <li>Google Cybersecurity (in progress)</li>
-      <li>CompTIA A+ (preparing)</li>
-    </ul>
-  </div>
+    <section>
+      <h2>🎓 Certifications & Education</h2>
+      <ul>
+        <li>Google Cybersecurity Certificate (In Progress)</li>
+        <li>CompTIA A+ (Preparing)</li>
+        <li>Associate Degree in Network Administration & Security</li>
+      </ul>
+    </section>
 
-  <div class="section">
-    <h2>📫 Contact</h2>
-    <p>Email: xavier@example.com</p>
-    <p>GitHub: <a href="https://github.com/xolvera" target="_blank">github.com/xolvera</a></p>
+    <section class="contact">
+      <h2>📫 Contact</h2>
+      <p>Email: <a href="mailto:xavier@example.com">xavier@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/xolvera" target="_blank">github.com/xolvera</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/xolvera" target="_blank">linkedin.com/in/xolvera</a></p>
+    </section>
   </div>
 </body>
 </html>
